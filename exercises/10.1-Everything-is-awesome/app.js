@@ -2,8 +2,13 @@ let myArray = [ 1, 0, 0, 0, 1, 0, 0, 0, 1, 1 ];
 
 const ZerosToYahoos = (arr) => {
     let return_array = [];
-    arr.forEach((item,index) => {
+    arr.forEach(elemento => {
             // magic goes inside these brackets
+            if (elemento==1){
+                return_array.push(1)
+            }else{
+                return_array.push('Yahoo')
+            }
     });
     return return_array;
 };
