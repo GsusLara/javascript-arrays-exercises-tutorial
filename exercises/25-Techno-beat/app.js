@@ -1,7 +1,7 @@
 function lyricsGenerator(ridim) {
     let salida;
     let concatenar='';
-    con=0;
+    let con=0;
     ridim.forEach(element => {
         if (element===1){
             salida='Drop the base'
